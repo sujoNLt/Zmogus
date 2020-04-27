@@ -31,6 +31,7 @@ namespace Zmogus
         int Metai { get; }
         string Vardas { get; }
         double Ugis { get; set; }
+        string Pavarde { get; }
     }
 
     interface IKomunikacija
