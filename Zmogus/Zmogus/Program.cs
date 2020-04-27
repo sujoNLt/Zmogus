@@ -10,8 +10,21 @@ namespace Zmogus
     {
         static void Main(string[] args)
         {
+            Keliavimas kel = new Keliavimas();
+            kel.Ejimas();
+
         }
     }
+
+
+    class Keliavimas : IKeliavimas
+    {
+        public void Ejimas()
+        {
+            Console.WriteLine("Aš einu");
+        }
+    }
+
 
     interface IDuomenys
     {
